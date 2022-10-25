@@ -1,0 +1,55 @@
+body
+{
+  background: #a8f790;
+}
+#pontuacao
+{
+  font-size: 30px;
+  margin-left: 100px;
+}
+span{
+  font-size: 30px;
+  float:left;
+  margin-right: 570px;
+}
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(52, 65, 23);
+  background-color: rgb(255, 255, 255);
+}
+
+#mudarSketch
+{
+  float:right;
+}
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px rgb(129, 255, 79);
+    box-shadow: 1px 1px 38px rgb(9, 82, 19);
+    animation-name: desenho;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes desenho{
+
+  from {box-shadow: 1px 1px 38px rgb(129, 255, 79);}
+  to {box-shadow: 1px 1px 38px rgb(9, 82, 19);}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+.btn-info:hover {
+  background-color: aquamarine;
+  border-radius: 10px;
+}
